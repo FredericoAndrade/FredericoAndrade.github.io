@@ -1,0 +1,67 @@
+// .styl files use Stylus.
+// Learn more at stylus-lang.com
+// To compile, run $ stylus -w from root directory
+
+nav
+  padding  30px 40px 30px 100px
+  box-sizing border-box
+
+  .links
+    margin 3px 0 0 0
+    float right
+
+    a
+      outline none
+
+      &:focus
+        border-bottom 3px solid $blue
+
+nav, footer
+  width 100%
+  background white
+  margin auto
+  display table
+  font-size 14px
+  color #7e8182
+
+  .logo
+    float left
+    width auto
+    outline none
+
+    img
+      margin-right 0!important
+      height 40px
+      float left
+
+  .links
+    a
+      display inline-block
+      margin-left 25px
+      color #7e8182
+      padding 0 5px
+
+      &:hover
+        border-bottom 2px solid $blue
+
+      &.rounded
+        border  2px solid $blue
+        border-radius 20px
+        padding 5px 10px
+        color $blue
+        display inline-block
+        transition all ease-in-out 0.2s
+
+        &:hover, &:focus
+          background $blue
+          color white
+
+footer
+  margin-top 150px
+  margin-bottom 50px
+
+  center
+    padding-top 50px
+    border-top 1px solid #eee
+    width 80%
+    margin auto

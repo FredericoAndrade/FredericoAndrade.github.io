@@ -1,0 +1,173 @@
+.content {
+  max-width: 800px;
+  margin: 50px auto 0;
+  display: table;
+  width: 800px;
+}
+section {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  float: left;
+}
+section.jumbotron {
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../img/AthelasBannerColored.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+section.jumbotron .content {
+  width: 100%;
+  max-width: 300px;
+  margin: 0;
+  top: 7vh;
+  left: 50%;
+  transform: translateX(-150%);
+  padding: 40px;
+  background: #fff;
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+section.jumbotron .content p {
+  font-weight: 100;
+  color: #000;
+  margin-top: 0;
+}
+section.jumbotron .content p:nth-of-type(1) {
+  font-size: 28px;
+  text-align: left;
+  margin-bottom: 55px;
+}
+section.jumbotron .content p:nth-of-type(2) {
+  font-size: 18px;
+}
+section.jumbotron .content p:nth-of-type(3) {
+  font-size: 14px;
+  margin-top: 55px;
+}
+section.jumbotron .content p span {
+  color: $blue;
+}
+section.jumbotron .content a.button1 {
+  text-align: center;
+  margin-right: 25px;
+  border-radius: 10px;
+  padding: 12px 20px;
+  color: #fff;
+  font-weight: 500;
+  border: 2px solid;
+  display: block;
+}
+section.jumbotron .content a.button1:nth-of-type(1) {
+  border-color: #31a6e3;
+  background-color: #31a6e3;
+  font-size: 18px;
+  margin: 30px auto 15px;
+}
+section.jumbotron .content a.button1:nth-of-type(2) {
+  color: #a6a6a6;
+  font-size: 13px;
+  border-color: transparent;
+  margin: auto;
+  background-color: transparent;
+}
+section.jumbotron img {
+  display: none;
+  float: left;
+  width: 100%;
+}
+section.socialProof center img {
+  width: 900px;
+  position: relative;
+  margin: 0 auto;
+}
+section.band {
+  margin-bottom: 50px;
+  height: 300px;
+}
+section.band.technology {
+  background: #19b9db;
+}
+section.band.manifesto {
+  background: #ef8324;
+}
+section.band.data {
+  background: #397624;
+}
+section.band.fda {
+  background: #264483;
+}
+section.band.contact {
+  background: #e16d64;
+}
+section.band.thanks {
+  background: #61b5f0;
+}
+section.band p {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  float: left;
+  font-size: 22px;
+  font-weight: 100;
+  margin: 200px 0 0 150px;
+}
+section.buttons center a {
+  text-align: center;
+  margin-right: 25px;
+  border-radius: 10px;
+  padding: 12px 20px;
+  color: #fff;
+  font-weight: 500;
+  border: 2px solid;
+  display: block;
+  width: 200px;
+}
+section.buttons center a:nth-of-type(1) {
+  border-color: #31a6e3;
+  background-color: #31a6e3;
+  font-size: 18px;
+  margin: 30px auto;
+  border: 2px solid #31a6e3;
+  background-color: #31a6e3;
+  font-weight: 500;
+}
+section.buttons center a:nth-of-type(2) {
+  color: #a6a6a6;
+  font-size: 13px;
+  border-color: transparent;
+  margin: auto;
+  background-color: transparent;
+  border: 2px solid #aeb5b7;
+  background-color: #aeb5b7;
+  color: #fff;
+  font-weight: 500;
+}
+.trial {
+  width: 800px;
+  padding-top: 70px;
+  display: block;
+  margin: auto;
+}
+.trial * {
+  color: #5d5d5d;
+  font-weight: 100;
+}
+.trial img {
+  width: 100%;
+}
+.trial h3 {
+  font-size: 22px;
+  text-align: left;
+  width: 100%;
+}
+.trial h3 strong {
+  float: right;
+  font-weight: bold;
+}
+.trial p {
+  font-size: 18px;
+}
