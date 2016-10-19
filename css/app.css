@@ -13,6 +13,7 @@ body h3 {
 }
 body a {
   text-decoration: none;
+  color: #32aceb;
 }
 body * {
   -webkit-font-smoothing: antialiased;
@@ -99,90 +100,38 @@ footer center {
   margin: auto;
 }
 .content {
-  max-width: 800px;
   margin: 50px auto 0;
+  display: block;
+  width: 600px;
+  position: relative;
+}
+.content h2 {
+  margin-top: 50px;
+}
+.content p {
+  font-size: 18px;
+}
+.content img {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content span.founderImages {
   display: table;
-  width: 800px;
+  margin: auto;
+}
+.content span.founderImages img {
+  left: 0;
+  transform: initial;
+}
+.content span.founderImages img:first-of-type {
+  margin-right: 10px;
 }
 section {
   width: 100%;
   display: inline-block;
   margin: 0 auto;
   float: left;
-}
-section.jumbotron {
-  height: 80vh;
-  overflow: hidden;
-  position: relative;
-  background-image: url("../img/AthelasBannerColored.jpg");
-  background-size: cover;
-  background-position: center bottom;
-}
-section.jumbotron .content {
-  width: 100%;
-  max-width: 300px;
-  margin: 0;
-  top: 7vh;
-  left: 50%;
-  transform: translateX(-150%);
-  padding: 40px;
-  background: #fff;
-  position: absolute;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-section.jumbotron .content p {
-  font-weight: 100;
-  color: #000;
-  margin-top: 0;
-}
-section.jumbotron .content p:nth-of-type(1) {
-  font-size: 28px;
-  text-align: left;
-  margin-bottom: 55px;
-}
-section.jumbotron .content p:nth-of-type(2) {
-  font-size: 18px;
-}
-section.jumbotron .content p:nth-of-type(3) {
-  font-size: 14px;
-  margin-top: 55px;
-}
-section.jumbotron .content p span {
-  color: #28c8f6;
-}
-section.jumbotron .content a.button1 {
-  text-align: center;
-  margin-right: 25px;
-  border-radius: 10px;
-  padding: 12px 20px;
-  color: #fff;
-  font-weight: 500;
-  border: 2px solid;
-  display: block;
-}
-section.jumbotron .content a.button1:nth-of-type(1) {
-  border-color: #31a6e3;
-  background-color: #31a6e3;
-  font-size: 18px;
-  margin: 30px auto 15px;
-}
-section.jumbotron .content a.button1:nth-of-type(2) {
-  color: #a6a6a6;
-  font-size: 13px;
-  border-color: transparent;
-  margin: auto;
-  background-color: transparent;
-}
-section.jumbotron img {
-  display: none;
-  float: left;
-  width: 100%;
-}
-section.socialProof center img {
-  width: 900px;
-  position: relative;
-  margin: 0 auto;
 }
 section.band {
   margin-bottom: 50px;
@@ -215,7 +164,114 @@ section.band p {
   font-weight: 100;
   margin: 200px 0 0 150px;
 }
-section.buttons center a {
+section.jumbotron {
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../img/AthelasBannerColored.jpg");
+  background-size: cover;
+  background-position: center bottom;
+}
+section.jumbotron .aside {
+  top: 7vh;
+  left: 50%;
+  transform: translateX(-150%);
+}
+section.jumbotron img {
+  display: none;
+  float: left;
+  width: 100%;
+}
+section.socialProof center img {
+  width: 900px;
+  position: relative;
+  margin: 0 auto;
+}
+section.process {
+  padding-bottom: 100px;
+}
+section.process h3 {
+  font-size: 36px;
+  width: 100%;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 20px 0;
+  background: #8bc7e9;
+  color: #fff;
+}
+section.process img {
+  width: 1100px;
+}
+section.process p {
+  margin: 0;
+  color: #5d5d5d;
+  line-height: 2;
+  font-size: 21px;
+}
+section.following {
+  min-height: 600px;
+  height: 40vw;
+  background: url("../img/athelasmainwhite.jpg") right center;
+  background-size: cover;
+  position: relative;
+}
+section.following .aside {
+  top: 50%;
+  right: 50%;
+  transform: translateX(150%) translateY(-50%);
+}
+section.following .aside p:nth-of-type(1) {
+  color: #5d5d5d;
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+section.following .aside p:nth-of-type(2) {
+  color: #aaa;
+  font-size: 19px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+section.following .aside p:nth-of-type(3) {
+  color: #aaa;
+  font-size: 19px;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+section .aside {
+  width: 100%;
+  max-width: 300px;
+  margin: 0;
+  padding: 40px;
+  background: #fff;
+  position: absolute;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+section .aside p {
+  font-weight: 100;
+  color: #000;
+  margin-top: 0;
+}
+section .aside p:nth-of-type(1) {
+  font-size: 28px;
+  text-align: left;
+  margin-bottom: 55px;
+}
+section .aside p:nth-of-type(2) {
+  font-size: 18px;
+}
+section .aside p:nth-of-type(3) {
+  font-size: 14px;
+  margin-top: 55px;
+  text-align: center;
+}
+section .aside p span {
+  color: #28c8f6;
+}
+section .aside a.button1 {
   text-align: center;
   margin-right: 25px;
   border-radius: 10px;
@@ -224,27 +280,19 @@ section.buttons center a {
   font-weight: 500;
   border: 2px solid;
   display: block;
-  width: 200px;
 }
-section.buttons center a:nth-of-type(1) {
+section .aside a.button1:nth-of-type(1) {
   border-color: #31a6e3;
   background-color: #31a6e3;
   font-size: 18px;
-  margin: 30px auto;
-  border: 2px solid #31a6e3;
-  background-color: #31a6e3;
-  font-weight: 500;
+  margin: 30px auto 15px;
 }
-section.buttons center a:nth-of-type(2) {
+section .aside a.button1:nth-of-type(2) {
   color: #a6a6a6;
   font-size: 13px;
   border-color: transparent;
   margin: auto;
   background-color: transparent;
-  border: 2px solid #aeb5b7;
-  background-color: #aeb5b7;
-  color: #fff;
-  font-weight: 500;
 }
 .trial {
   width: 800px;
