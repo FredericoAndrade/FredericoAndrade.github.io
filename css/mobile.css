@@ -1,6 +1,14 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  body .container nav {
+    padding: 30px 40px 30px 30px;
+  }
   body .container nav .logo img {
     height: 100px;
+  }
+  body .container nav .links a {
+    font-size: 400%;
+    float: none;
+    display: block;
   }
   body .container section.jumbotron {
     height: 70vh;
