@@ -5,6 +5,6 @@
   }
   html section.following .aside,
   body section.following .aside {
-    transform: translateX(100%), translateY(-60%);
+    transform: translateX(100%) translateY(-60%);
   }
 }

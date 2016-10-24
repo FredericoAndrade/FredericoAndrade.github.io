@@ -472,6 +472,6 @@ section .aside a.button1:nth-of-type(2) {
   }
   html section.following .aside,
   body section.following .aside {
-    transform: translateX(100%), translateY(-60%);
+    transform: translateX(100%) translateY(-60%);
   }
 }
