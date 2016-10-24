@@ -486,8 +486,6 @@ section .aside a.button1:nth-of-type(2) {
     margin: 0 0.7%;
   }
 }
-@media only screen and (min-width: 768px) {
-}
 @media only screen and (min-width: 1140px) {
   .wrapper {
     width: 100% /* 1140px - 10% for margins */;
