@@ -1,27 +1,15 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  html p,
-  body p,
-  html a,
-  body a,
-  html h1,
-  body h1,
-  html h2,
-  body h2,
-  html h3,
-  body h3 {
-    font-size: 2em !important;
+  body .container nav .logo img {
+    height: 100px;
   }
-  html section.jumbotron,
-  body section.jumbotron {
+  body .container section.jumbotron {
     height: 70vh;
     background-position: 30%;
   }
-  html section.process img,
-  body section.process img {
+  body .container section.process img {
     width: 100%;
   }
-  html section.following .aside,
-  body section.following .aside {
+  body .container section.following .aside {
     transform: translateX(100%) translateY(-60%);
   }
 }

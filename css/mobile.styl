@@ -4,21 +4,26 @@
 
 // iPhone 6 in portrait & landscape
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px)
-  html, body
-    p, a, h1, h2, h3
-      font-size 2em !important
-    section
-      &.jumbotron
-        height 70vh
-        background-position 30%
+  body
+    .container
+      nav
+        .logo
+          img
+            height 100px
+        .links
+          a
+      section
+        &.jumbotron
+          height 70vh
+          background-position 30%
 
-      &.process
-        img
-          width 100%
+        &.process
+          img
+            width 100%
 
-      &.following
-        .aside
-          transform translateX(100%) translateY(-60%)
+        &.following
+          .aside
+            transform translateX(100%) translateY(-60%)
 
 
 // iPhone 6 in landscape
