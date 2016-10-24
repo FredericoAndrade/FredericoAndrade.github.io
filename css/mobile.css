@@ -5,6 +5,9 @@
   body .container nav .logo img {
     height: 100px;
   }
+  body .container nav .links button {
+    display: block;
+  }
   body .container nav .links a {
     font-size: 400%;
     float: none;
