@@ -465,17 +465,7 @@ section .aside a.button1:nth-of-type(2) {
 #hor-minimalist-b tbody tr:hover td {
   color: #009;
 }
-@media only screen and (min-width: 480px) {
-  html,
-  body {
-    width: 98%;
-  }
-}
 @media only screen and (min-width: 768px) {
-  html,
-  body {
-    width: 99%;
-  }
   html section.process img,
   body section.process img {
     width: 100%;
@@ -483,11 +473,5 @@ section .aside a.button1:nth-of-type(2) {
   html section.following .aside,
   body section.following .aside {
     transform: translateX(100%), translateY(-60%);
-  }
-}
-@media only screen and (min-width: 1140px) {
-  html,
-  body {
-    width: 97%;
   }
 }
