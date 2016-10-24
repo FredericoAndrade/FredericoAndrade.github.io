@@ -1,9 +1,14 @@
-@media only screen and (min-width: 768px) {
-  p,
-  a,
-  h1,
-  h2,
-  h3 {
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  html p,
+  body p,
+  html a,
+  body a,
+  html h1,
+  body h1,
+  html h2,
+  body h2,
+  html h3,
+  body h3 {
     font-size: 2em !important;
   }
   html section.jumbotron,
