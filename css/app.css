@@ -465,15 +465,21 @@ section .aside a.button1:nth-of-type(2) {
 #hor-minimalist-b tbody tr:hover td {
   color: #009;
 }
+@media only screen and (min-width: 480px) {
+  html,
+  body {
+    width: 98%;
+  }
+}
 @media only screen and (min-width: 768px) {
   html,
   body {
-    width: 100%;
+    width: 99%;
   }
 }
 @media only screen and (min-width: 1140px) {
-  .wrapper {
-    width: 100% /* 1140px - 10% for margins */;
-    margin: 0 auto;
+  html,
+  body {
+    width: 97%;
   }
 }
