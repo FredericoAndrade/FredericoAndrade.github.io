@@ -5,8 +5,17 @@
   body .container nav .logo img {
     height: 100px;
   }
-  body .container nav .links button {
+  body .container nav .links {
+    overflow: hidden;
     display: block;
+    height: 90px;
+  }
+  body .container nav .links button#mobileMenu {
+    display: block;
+    background: transparent;
+    border: none;
+    font-size: 500%;
+    float: right;
   }
   body .container nav .links a {
     font-size: 400%;

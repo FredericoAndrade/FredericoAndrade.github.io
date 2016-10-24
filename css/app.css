@@ -91,10 +91,10 @@ footer .links a.rounded:focus {
 }
 footer {
   margin-top: 150px;
-  margin-bottom: 50px;
 }
 footer center {
   padding-top: 50px;
+  padding-bottom: 50px;
   border-top: 1px solid #eee;
   width: 80%;
   margin: auto;
@@ -475,8 +475,17 @@ section .aside a.button1:nth-of-type(2) {
   body .container nav .logo img {
     height: 100px;
   }
-  body .container nav .links button {
+  body .container nav .links {
+    overflow: hidden;
     display: block;
+    height: 90px;
+  }
+  body .container nav .links button#mobileMenu {
+    display: block;
+    background: transparent;
+    border: none;
+    font-size: 500%;
+    float: right;
   }
   body .container nav .links a {
     font-size: 400%;
