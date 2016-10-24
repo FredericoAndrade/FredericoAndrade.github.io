@@ -1,7 +1,4 @@
-$(document).ready(function() {
-
-})
-
-function mobileMenu() {
+var button = $("#menuButton")
+button.click(function(){
   console.log("hi")
-}
+})
