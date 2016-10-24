@@ -42,7 +42,7 @@
       <nav>
         <a class="logo" href="#"><img src="img/logo.png"\></a>
         <div class="links">
-          <button id="mobileMenu">...</button>
+          <button id="mobileMenu">+</button>
           <a href="technology/index.html">Technology</a>
           <a href="manifesto/index.html">Manifesto</a>
           <a href="data/index.html">Data</a>
@@ -101,6 +101,11 @@
         </center>
       </footer>
     </div>
-    <script type="text/javascript" src="mobile.js"></script>
+    <script type="text/javascript">
+      var button = $("#mobileMenu")
+      button.click(function(){
+        console.log("hi")
+      })
+    </script>
   </body>
 </html>
