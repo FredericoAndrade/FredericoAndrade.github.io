@@ -473,6 +473,11 @@ section .aside a.button1:nth-of-type(2) {
   h3 {
     font-size: 2em !important;
   }
+  html section.jumbotron,
+  body section.jumbotron {
+    height: 70vh;
+    background-position: 30%;
+  }
   html section.process img,
   body section.process img {
     width: 100%;
