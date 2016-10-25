@@ -74,6 +74,7 @@
     height: auto;
   }
   body .container section.jumbotron .aside {
+    background: #fafafa;
     padding: 60px;
     float: right;
     top: initial;
@@ -90,7 +91,7 @@
     font-size: 350%;
   }
   body .container section.jumbotron .aside p:nth-of-type(3) {
-    font-size: 300%;
+    font-size: 250%;
   }
   body .container section.jumbotron .aside a {
     font-size: 50px;
