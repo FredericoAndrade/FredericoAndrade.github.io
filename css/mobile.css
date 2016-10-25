@@ -107,4 +107,11 @@
   body .container section.following .aside {
     transform: translateX(100%) translateY(-60%);
   }
+  #hor-minimalist-b {
+    width: 700px;
+    font-size: 30px;
+  }
+  #hor-minimalist-b th {
+    font-size: 30px;
+  }
 }
