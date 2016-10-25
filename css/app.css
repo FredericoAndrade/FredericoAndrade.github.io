@@ -597,12 +597,22 @@ section .aside a.button1:nth-of-type(2) {
     transform: initial;
     box-sizing: border-box;
     position: initial;
+    padding: 80px;
   }
-  body .container section.following .aside p {
-    font-size: 45px;
+  body .container section.following .aside p:nth-of-type(1) {
+    font-size: 55px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  body .container section.following .aside p:nth-of-type(2) {
+    font-size: 40px;
+  }
+  body .container section.following .aside p:nth-of-type(3) {
+    font-size: 40px;
   }
   body .container section.following .aside a {
-    font-size: 40px;
+    font-size: 55px;
   }
   #hor-minimalist-b {
     margin: 80px auto;
