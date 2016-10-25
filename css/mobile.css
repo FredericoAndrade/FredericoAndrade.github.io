@@ -36,6 +36,9 @@
     float: none;
     display: block;
   }
+  body .container .content {
+    width: 800px;
+  }
   body .container .content p {
     font-size: 40px;
   }
