@@ -533,6 +533,7 @@ section .aside a.button1:nth-of-type(2) {
   }
   body .container section.jumbotron img,
   body .container section.following img {
+    float: left;
     display: block;
   }
   body .container section.band p {
@@ -543,7 +544,8 @@ section .aside a.button1:nth-of-type(2) {
     height: auto;
   }
   body .container section.jumbotron .aside {
-    top: 0;
+    float: right;
+    top: initial;
     left: initial;
     transform: initial;
     max-width: 100%;
