@@ -19,11 +19,22 @@
             border none
             font-size 500%
             float right
+            content "+"
 
         .links
           overflow hidden
           display block
           height 0px
+
+          &.open
+            height 490px
+            position absolute
+            background white
+            z-index 10
+            right 0
+            top 150px
+            padding 20px 20px 20px 0
+            box-shadow 0 2px 4px rgba(0,0,0,0.2)
 
           a
             font-size 400%
