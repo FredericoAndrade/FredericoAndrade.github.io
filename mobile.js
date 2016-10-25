@@ -1,4 +1,4 @@
 var button = $("#mobileMenu")
 button.click(function(){
-  console.log("hi")
+  $("nav .links").toggleClass("open")
 })
