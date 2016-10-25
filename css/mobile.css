@@ -104,6 +104,9 @@
   body .container section.process img center p {
     font-size: 50px;
   }
+  body .container section.following {
+    height: auto;
+  }
   body .container section.following .aside {
     max-width: 100%;
     transform: initial;
