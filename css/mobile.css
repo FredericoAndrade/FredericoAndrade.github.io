@@ -108,6 +108,7 @@
     transform: translateX(100%) translateY(-60%);
   }
   #hor-minimalist-b {
+    margin: 80px auto;
     width: 800px;
     font-size: 30px;
   }
