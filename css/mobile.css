@@ -114,8 +114,14 @@
   body .container section.process img {
     width: 100%;
   }
-  body .container section.process p {
-    font-size: 50px;
+  body .container section.process center {
+    background: #fafafa;
+  }
+  body .container section.process center p {
+    text-align: left;
+    font-size: 40px;
+    line-height: 1.4;
+    margin-bottom: 30px;
   }
   body .container section.following {
     height: auto;
