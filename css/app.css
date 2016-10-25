@@ -506,6 +506,12 @@ section .aside a.button1:nth-of-type(2) {
     float: none;
     display: block;
   }
+  body .container footer .links {
+    width: initial;
+  }
+  body .container footer .links a {
+    font-size: 40px;
+  }
   body .container section.jumbotron {
     height: 160vh;
     background-size: 230%;
