@@ -475,7 +475,7 @@ section .aside a.button1:nth-of-type(2) {
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   body .container nav {
     padding: 30px 40px 30px 30px;
-    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
   }
   body .container nav .logo img {
     height: 100px;
@@ -548,6 +548,7 @@ section .aside a.button1:nth-of-type(2) {
     height: auto;
   }
   body .container section.jumbotron .aside {
+    padding: 60px;
     float: right;
     top: initial;
     left: initial;
@@ -563,7 +564,7 @@ section .aside a.button1:nth-of-type(2) {
     font-size: 350%;
   }
   body .container section.jumbotron .aside p:nth-of-type(3) {
-    font-size: 400%;
+    font-size: 300%;
   }
   body .container section.jumbotron .aside a {
     font-size: 50px;
