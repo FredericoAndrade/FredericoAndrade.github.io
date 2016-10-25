@@ -29,12 +29,12 @@ nav {
   padding: 30px 40px 30px 100px;
   box-sizing: border-box;
 }
+nav button {
+  display: none;
+}
 nav .links {
   margin: 3px 0 0 0;
   float: right;
-}
-nav .links button {
-  display: none;
 }
 nav .links a {
   outline: none;
@@ -475,17 +475,17 @@ section .aside a.button1:nth-of-type(2) {
   body .container nav .logo img {
     height: 100px;
   }
-  body .container nav .links {
-    overflow: hidden;
-    display: block;
-    height: 90px;
-  }
-  body .container nav .links button#mobileMenu {
+  body .container nav button#mobileMenu {
     display: block;
     background: transparent;
     border: none;
     font-size: 500%;
     float: right;
+  }
+  body .container nav .links {
+    overflow: hidden;
+    display: block;
+    height: 0px;
   }
   body .container nav .links a {
     font-size: 400%;
