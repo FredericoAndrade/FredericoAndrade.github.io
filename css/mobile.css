@@ -200,11 +200,11 @@ m
     font-size: 50px;
   }
   body .container .form form .grouping .input label {
-    top: 10px;
+    top: -60px;
     left: 0;
   }
-  body .container .form form .grouping .input label {
-    top: -60px;
+  body .container .form form .grouping .input input {
+    padding: 20px 10px;
   }
   body .container .form button {
     font-size: 50px;
