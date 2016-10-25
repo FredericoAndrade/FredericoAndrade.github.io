@@ -19,6 +19,7 @@
             border none
             font-size 500%
             float right
+            padding 0 10px 0 150px
 
         .links
           overflow hidden
@@ -47,11 +48,24 @@
 
           .aside
             top 0
+            left initial
+            transform initial
             max-width 100%
-            transform translateX(-100%)
+            position relative
+            box-sizing border-box
 
             p
-              font-size 400%
+              &:nth-of-type(1)
+                font-size 500%
+              &:nth-of-type(2)
+                font-size 350%
+              &:nth-of-type(3)
+                font-size 400%
+
+            a
+              font-size 50px
+              &:nth-of-type(2)
+                padding 30px 30px 0 30px
 
         &.socialProof
           margin-top 70px
