@@ -336,6 +336,8 @@ section .aside a.button1:nth-of-type(2) {
   color: #adadad;
 }
 .form button {
+  display: block;
+  margin: auto;
   background: transparent;
   color: #59cee7;
   cursor: pointer;
@@ -625,6 +627,63 @@ section .aside a.button1:nth-of-type(2) {
   }
   body .container section.following .aside a {
     font-size: 55px;
+  }
+  body .container .trial {
+    width: 100%;
+    overflow: hidden;
+  }
+  body .container .trial h3,
+  body .container .trial p {
+    box-sizing: border-box;
+    padding: 60px;
+  }
+  body .container .trial h3 {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  body .container .trial h3 strong {
+    font-size: 60px;
+    margin-top: -8px;
+  }
+  body .container .trial img {
+    min-height: 500px;
+    width: auto;
+    margin-left: -35%;
+  }
+  body .container .form {
+    padding: 60px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  body .container .form h2 {
+    font-size: 60px;
+  }
+  body .container .form form .grouping {
+    width: 100%;
+  }
+  body .container .form form .grouping .input {
+    width: 100%;
+    margin-bottom: 90px;
+    padding: 0;
+  }
+  body .container .form form .grouping .input input,
+  body .container .form form .grouping .input label {
+    font-size: 50px;
+  }
+  body .container .form form .grouping .input label {
+    top: 10px;
+    left: 0;
+  }
+  body .container .form form .grouping .input input:focus ~ label {
+    top: -60px;
+  }
+  body .container .form button {
+    font-size: 50px;
+    border-radius: 90px;
+    padding: 40px 100px;
+  }
+  body .container .form p {
+    font-size: 30px;
   }
   #hor-minimalist-b {
     margin: 80px auto;
