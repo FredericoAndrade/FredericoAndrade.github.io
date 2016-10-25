@@ -603,14 +603,16 @@ section .aside a.button1:nth-of-type(2) {
     font-size: 55px;
     font-weight: bold;
     display: inline-block;
-    margin-top: 50px;
+    margin: 60px 0;
   }
   body .container section.following .aside p:nth-of-type(2) {
     color: #000;
     font-size: 40px;
+    margin-bottom: 40px;
   }
   body .container section.following .aside p:nth-of-type(3) {
     font-size: 30px;
+    margin-bottom: 50px;
   }
   body .container section.following .aside a {
     font-size: 55px;
