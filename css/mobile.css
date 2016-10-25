@@ -385,9 +385,14 @@ m
   body .container .trial h3,
   body .container .trial p {
     box-sizing: border-box;
-    padding: 60px;
+    padding: 0 60px;
+  }
+  body .container .trial p {
+    font-size: 30px;
+m
   }
   body .container .trial h3 {
+    font-size: 50px;
     margin-top: 0;
     padding-top: 0;
   }
@@ -434,6 +439,7 @@ m
   }
   body .container .form p {
     font-size: 30px;
+    margin: 60px 10px 100px;
   }
   #hor-minimalist-b {
     margin: 80px auto;
