@@ -56,6 +56,10 @@
     margin-top: 80px;
     margin-bottom: 40px;
   }
+  body .container section.jumbotron img,
+  body .container section.following img {
+    display: block;
+  }
   body .container section.band p {
     font-size: 65px;
     margin: 170px 0 0 150px;

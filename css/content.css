@@ -32,6 +32,12 @@ section {
   margin: 0 auto;
   float: left;
 }
+section.jumbotron img,
+section.following img {
+  display: none;
+  float: left;
+  width: 100%;
+}
 section.band {
   margin-bottom: 50px;
   height: 300px;
@@ -75,11 +81,6 @@ section.jumbotron .aside {
   top: 7vh;
   left: 50%;
   transform: translateX(-150%);
-}
-section.jumbotron img {
-  display: none;
-  float: left;
-  width: 100%;
 }
 section.socialProof center img {
   width: 900px;

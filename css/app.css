@@ -133,6 +133,12 @@ section {
   margin: 0 auto;
   float: left;
 }
+section.jumbotron img,
+section.following img {
+  display: none;
+  float: left;
+  width: 100%;
+}
 section.band {
   margin-bottom: 50px;
   height: 300px;
@@ -176,11 +182,6 @@ section.jumbotron .aside {
   top: 7vh;
   left: 50%;
   transform: translateX(-150%);
-}
-section.jumbotron img {
-  display: none;
-  float: left;
-  width: 100%;
 }
 section.socialProof center img {
   width: 900px;
@@ -525,6 +526,10 @@ section .aside a.button1:nth-of-type(2) {
   body .container footer .links a.rounded {
     margin-top: 80px;
     margin-bottom: 40px;
+  }
+  body .container section.jumbotron img,
+  body .container section.following img {
+    display: block;
   }
   body .container section.band p {
     font-size: 65px;
