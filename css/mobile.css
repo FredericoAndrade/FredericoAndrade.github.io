@@ -115,6 +115,7 @@
     width: 100%;
   }
   body .container section.process center {
+    padding: 60px;
     background: #fafafa;
   }
   body .container section.process center p {
