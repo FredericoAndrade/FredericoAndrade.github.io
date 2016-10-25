@@ -203,7 +203,7 @@ m
     top: 10px;
     left: 0;
   }
-  body .container .form form .grouping .input input:focus ~ label {
+  body .container .form form .grouping .input input label {
     top: -60px;
   }
   body .container .form button {
