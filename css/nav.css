@@ -3,7 +3,7 @@ nav {
   box-sizing: border-box;
   position: relative;
   z-index: 20;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 nav button {
   display: none;
