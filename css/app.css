@@ -506,12 +506,19 @@ section .aside a.button1:nth-of-type(2) {
     float: none;
     display: block;
   }
+  body .container .content p {
+    font-size: 40px;
+  }
   body .container footer .links {
     width: initial;
   }
   body .container footer .links a {
     margin: 0 12px;
     font-size: 40px;
+  }
+  body .container footer .links a.rounded {
+    margin-top: 80px;
+    margin-bottom: 40px;
   }
   body .container section.jumbotron {
     height: 160vh;
