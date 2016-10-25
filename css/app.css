@@ -575,7 +575,13 @@ section .aside a.button1:nth-of-type(2) {
     font-size: 50px;
   }
   body .container section.following .aside {
-    transform: translateX(100%) translateY(-60%);
+    width: 100%;
+    transform: initial;
+    box-sizing: border-box;
+    position: initial;
+  }
+  body .container section.following .aside p {
+    font-size: 45px;
   }
   #hor-minimalist-b {
     margin: 80px auto;
