@@ -23,8 +23,18 @@
     display: block;
   }
   body .container section.jumbotron {
-    height: 70vh;
-    background-position: 30%;
+    height: 53vh;
+    background-position: -3% bottom;
+  }
+  body .container section.jumbotron .aside {
+    top: 0;
+    transform: translateX(-100%);
+  }
+  body .container section.jumbotron .aside p {
+    font-size: 400%;
+  }
+  body .container section.socialProof {
+    margin-top: 70px;
   }
   body .container section.socialProof center img {
     width: 100%;
