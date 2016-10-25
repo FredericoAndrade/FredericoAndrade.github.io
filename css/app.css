@@ -509,6 +509,9 @@ section .aside a.button1:nth-of-type(2) {
   body .container .content {
     width: 800px;
   }
+  body .container .content h2 {
+    font-size: 60px;
+  }
   body .container .content p {
     font-size: 40px;
   }
