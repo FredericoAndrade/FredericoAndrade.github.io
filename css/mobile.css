@@ -132,10 +132,11 @@
     margin-top: 50px;
   }
   body .container section.following .aside p:nth-of-type(2) {
+    color: #000;
     font-size: 40px;
   }
   body .container section.following .aside p:nth-of-type(3) {
-    font-size: 40px;
+    font-size: 30px;
   }
   body .container section.following .aside a {
     font-size: 55px;
