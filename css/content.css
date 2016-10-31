@@ -42,6 +42,12 @@ section.band {
   margin-bottom: 50px;
   height: 300px;
 }
+section.band.about {
+  background: #63c0f2;
+  background: -moz-linear-gradient(-45deg, #63c0f2 0%, #8bc7e9 100%);
+  background: -webkit-linear-gradient(-45deg, #63c0f2 0%, #8bc7e9 100%);
+  background: linear-gradient(135deg, #63c0f2 0%, #8bc7e9 100%);
+}
 section.band.technology {
   background: #19b9db;
 }
@@ -82,10 +88,36 @@ section.jumbotron .aside {
   left: 50%;
   transform: translateX(-150%);
 }
-section.socialProof center img {
+section.press center img {
   width: 900px;
   position: relative;
   margin: 0 auto;
+}
+section.socialProof {
+  background: #8bc7e9;
+  color: #fff;
+  padding: 60px;
+  box-sizing: border-box;
+  background: #63c0f2;
+  background: -moz-linear-gradient(-45deg, #63c0f2 0%, #8bc7e9 100%);
+  background: -webkit-linear-gradient(-45deg, #63c0f2 0%, #8bc7e9 100%);
+  background: linear-gradient(135deg, #63c0f2 0%, #8bc7e9 100%);
+}
+section.socialProof h3 {
+  color: #fff;
+}
+section.socialProof article {
+  width: 33%;
+  float: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+section.socialProof article h2 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #afd8ef;
+}
+section.socialProof article p {
+  font-weight: bold;
 }
 section.process {
   padding-bottom: 100px;
@@ -97,7 +129,10 @@ section.process h3 {
   text-align: center;
   margin-bottom: 0;
   padding: 20px 0;
-  background: #8bc7e9;
+  background: #63c0f2;
+  background: -moz-linear-gradient(-45deg, #63c0f2 0%, #8bc7e9 100%);
+  background: -webkit-linear-gradient(-45deg, #63c0f2 0%, #8bc7e9 100%);
+  background: linear-gradient(135deg, #63c0f2 0%, #8bc7e9 100%);
   color: #fff;
 }
 section.process img {
