@@ -70,25 +70,26 @@
       </div>
     </nav>
 
+    <span class="trialImage"></span>
     <div class="trial">
-      <h3>Athelas with 10 test strips <strong>$99</strong></h3>
-      <img src="../img/athelasmainwhite.png"/>
-      <p>To join trial fill out form below. We'll be in touch with remaining information to order. We have a small number of devices to deploy in this batch, so spots may fill out quickly.</p>
-      <p>This first shipment of devices is discounted from the final market price, with 24 hour free support (since it is a trial), so joining now has benefits.</p>
+      <div class="form">
+        <h3>Get Athelas with 10 test strips <strong>$99</strong></h3>
+        <form action="">
+          <div class="grouping">
+            <div class="input col-1"><input id="name" type="text" name="name" value="" required><span class="highlight"></span><span class="bar"></span><label for="name">Name</label></div>
+            <div class="input col-1"><input id="email" type="text" name="email" value="" required><span class="highlight"></span><span class="bar"></span><label for="email">Email</label></div>
+            <div class="input col-2"><input id="message" type="text" name="message" value="" required><span class="highlight"></span><span class="bar"></span><label for="message">What is your immune condition?</label></div>
+          </div>
+          <p>Submitting below means you intend to purchase a device for $99. Ships within 20 days. Payment collected securely later (after we contact to confirm your spot in the trial).</p>
+          <button type="submit"  id="send-button" onclick="onhitbutton();">Get Device</button>
+        </form>
+      <br>
+      <p>We'll be in touch with remaining information to order. We have a small number of devices to deploy in this batch, so spots may fill out quickly.</p>
+      <p>This first shipment of devices is discounted from the final market price, with 24 hour free support during the trial phase, so joining now has benefits.</p>
+      </div>
     </div>
 
-    <div class="form">
-      <h2>Get Device.</h2>
-      <form action="">
-        <div class="grouping">
-          <div class="input col-1"><input id="name" type="text" name="name" value="" required><span class="highlight"></span><span class="bar"></span><label for="name">Name</label></div>
-          <div class="input col-1"><input id="email" type="text" name="email" value="" required><span class="highlight"></span><span class="bar"></span><label for="email">Email</label></div>
-          <div class="input col-2"><input id="message" type="text" name="message" value="" required><span class="highlight"></span><span class="bar"></span><label for="message">What is your immune condition?</label></div>
-        </div>
-        <p>Submitting below means you intend to purchase a device for $99. Ships within 20 days. Payment collected securely later (after we contact to confirm your spot in the trial).</p>
-        <button type="submit"  id="send-button" onclick="onhitbutton();">Join</button>
-      </form>
-    </div>
+
 
     <footer class="nav">
       <center class="links">

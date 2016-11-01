@@ -10,23 +10,23 @@
   width: 100%;
   color: #adadad;
 }
+.form p:nth-of-type(2) {
+  margin: 0 10px;
+}
 .form button {
   display: block;
   margin: auto;
   background: transparent;
-  color: #59cee7;
   cursor: pointer;
-  border: 2px solid #59cee7;
-  padding: 10px 25px;
-  border-radius: 23px;
-  font-size: 20px;
+  border: 2px solid #31a6e3;
+  padding: 12px 20px;
+  border-radius: 10px;
   transition: all ease-in-out 0.2s;
   outline: none;
-}
-.form button:hover,
-.form button:focus {
-  background: #59cee7;
+  background-color: #31a6e3;
+  font-size: 18px;
   color: #fff;
+  width: 300px;
 }
 .grouping {
   width: 600px;

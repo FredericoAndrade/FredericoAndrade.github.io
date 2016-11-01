@@ -81,11 +81,12 @@ section
     background-position center bottom
 
     .aside
-      top 7vh
+      top 50%
       left 50%
-      transform translateX(-150%)
+      transform translateX(-150%) translateY(-50%)
 
   &.press
+    margin 36px 0
     center
       img
         width 900px
@@ -119,14 +120,14 @@ section
         font-weight bold
 
   &.process
-    padding-bottom 100px
+    padding-bottom 70px
 
     h3
       font-size 36px
       width 100%
       font-weight 100
       text-align center
-      margin-bottom 0
+      margin 0
       padding 20px 0
       background #63c0f2
       background -moz-linear-gradient(-45deg, #63c0f2 0%, #8bc7e9 100%)
@@ -137,6 +138,11 @@ section
     img
       width 1100px
 
+    span
+      display inline-block
+      margin-bottom 50px
+      p
+        text-align left
     p
       margin 0
       color #5d5d5d
@@ -194,14 +200,14 @@ section
         &:nth-of-type(1)
           font-size 28px
           text-align left
-          margin-bottom 55px
+          margin-bottom 25px
 
         &:nth-of-type(2)
           font-size 18px
 
         &:nth-of-type(3)
           font-size 14px
-          margin-top 55px
+          margin-top 15px
           text-align center
 
         span
@@ -230,6 +236,16 @@ section
           margin auto
           background-color  transparent
 
+.trialImage
+  width 100%
+  display block
+  min-height 600px
+  height 40vw
+  max-height 800px
+  background url(../img/athelasmainwhite.jpg) center
+  background-size cover
+  position relative
+
 .trial
   width 800px
   padding-top 70px
@@ -239,9 +255,6 @@ section
   *
     color #5d5d5d
     font-weight 100
-
-  img
-    width 100%
 
   h3
     font-size 22px

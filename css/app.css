@@ -188,9 +188,12 @@ section.jumbotron {
   background-position: center bottom;
 }
 section.jumbotron .aside {
-  top: 7vh;
+  top: 50%;
   left: 50%;
-  transform: translateX(-150%);
+  transform: translateX(-150%) translateY(-50%);
+}
+section.press {
+  margin: 36px 0;
 }
 section.press center img {
   width: 900px;
@@ -224,14 +227,14 @@ section.socialProof article p {
   font-weight: bold;
 }
 section.process {
-  padding-bottom: 100px;
+  padding-bottom: 70px;
 }
 section.process h3 {
   font-size: 36px;
   width: 100%;
   font-weight: 100;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0;
   padding: 20px 0;
   background: #63c0f2;
   background: -moz-linear-gradient(-45deg, #63c0f2 0%, #8bc7e9 100%);
@@ -241,6 +244,13 @@ section.process h3 {
 }
 section.process img {
   width: 1100px;
+}
+section.process span {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+section.process span p {
+  text-align: left;
 }
 section.process p {
   margin: 0;
@@ -297,14 +307,14 @@ section .aside p {
 section .aside p:nth-of-type(1) {
   font-size: 28px;
   text-align: left;
-  margin-bottom: 55px;
+  margin-bottom: 25px;
 }
 section .aside p:nth-of-type(2) {
   font-size: 18px;
 }
 section .aside p:nth-of-type(3) {
   font-size: 14px;
-  margin-top: 55px;
+  margin-top: 15px;
   text-align: center;
 }
 section .aside p span {
@@ -333,6 +343,16 @@ section .aside a.button1:nth-of-type(2) {
   margin: auto;
   background-color: transparent;
 }
+.trialImage {
+  width: 100%;
+  display: block;
+  min-height: 600px;
+  height: 40vw;
+  max-height: 800px;
+  background: url("../img/athelasmainwhite.jpg") center;
+  background-size: cover;
+  position: relative;
+}
 .trial {
   width: 800px;
   padding-top: 70px;
@@ -342,9 +362,6 @@ section .aside a.button1:nth-of-type(2) {
 .trial * {
   color: #5d5d5d;
   font-weight: 100;
-}
-.trial img {
-  width: 100%;
 }
 .trial h3 {
   font-size: 22px;
@@ -370,23 +387,23 @@ section .aside a.button1:nth-of-type(2) {
   width: 100%;
   color: #adadad;
 }
+.form p:nth-of-type(2) {
+  margin: 0 10px;
+}
 .form button {
   display: block;
   margin: auto;
   background: transparent;
-  color: #59cee7;
   cursor: pointer;
-  border: 2px solid #59cee7;
-  padding: 10px 25px;
-  border-radius: 23px;
-  font-size: 20px;
+  border: 2px solid #31a6e3;
+  padding: 12px 20px;
+  border-radius: 10px;
   transition: all ease-in-out 0.2s;
   outline: none;
-}
-.form button:hover,
-.form button:focus {
-  background: #59cee7;
+  background-color: #31a6e3;
+  font-size: 18px;
   color: #fff;
+  width: 300px;
 }
 .grouping {
   width: 600px;
