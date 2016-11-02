@@ -575,6 +575,7 @@ section .aside a.button1:nth-of-type(2) {
     font-size: 40px;
   }
   body .container footer .links {
+    padding-bottom: 100px;
     width: initial;
   }
   body .container footer .links a {
@@ -747,8 +748,10 @@ m
   }
   body .container .form button {
     font-size: 50px;
-    border-radius: 90px;
     padding: 40px 100px;
+    font-size: 60px;
+    font-weight: 500;
+    width: auto;
   }
   body .container .form p {
     font-size: 30px;
