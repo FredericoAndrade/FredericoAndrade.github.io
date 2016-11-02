@@ -707,12 +707,11 @@ m
   }
   body .container .trial h3 {
     font-size: 50px;
-    margin-top: 0;
-    padding-top: 0;
+    margin: 0 0 100px;
+    padding: 0;
   }
   body .container .trial h3 strong {
-    font-size: 60px;
-    margin-top: -8px;
+    font-size: 50px;
   }
   body .container .trial img {
     min-height: 500px;
